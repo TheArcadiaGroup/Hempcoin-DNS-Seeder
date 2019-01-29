@@ -398,7 +398,7 @@ extern "C" void* ThreadStats(void*) {
 }
 
 static const string mainnet_seeds[] = {"seeds.hempcoin.org", "dns1.hempcoin.org", "dns2.hempcoin.org", "dns3.hempcoin.org", "dns4.hempcoin.org", "dns5.hempcoin.org", ""};
-static const string testnet_seeds[] = {""};
+static const string testnet_seeds[] = {"test.hempcoin.org", "testnet1.hempcoin.org", "testnet.hempcoin.org", ""};
 static const string *seeds = mainnet_seeds;
 
 extern "C" void* ThreadSeeder(void*) {
