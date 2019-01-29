@@ -77,7 +77,7 @@ class CNode {
     int64 nTime = time(NULL);
     uint64 nLocalNonce = BITCOIN_SEED_NONCE;
     int64 nLocalServices = 0;
-    CAddress me(CService("0.0.0.0"));
+    CAddress me(CService("dns1.hempcoin.org"));
     BeginMessage("version");
     int nBestHeight = GetRequireHeight();
     string ver = "/hempcoin-seeder:0.01/";
